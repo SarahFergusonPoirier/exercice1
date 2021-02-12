@@ -131,7 +131,7 @@ body::after {
 #menu {
     grid-area: menu; 
     height: 2vh;
-    margin: 0 auto 5vh;
+    margin: 0 auto 3vh;
     @include tablet {
         margin: 0 auto 2vh; 
     }
@@ -147,7 +147,7 @@ body::after {
     height: 70vh; 
     grid-area: principal;
     @include mobile {
-        height: 45vh; 
+        height: 40vh; 
     }
     @include desktop {
         height: 50vh; 

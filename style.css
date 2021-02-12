@@ -190,7 +190,7 @@ body::after {
 #menu {
   grid-area: menu;
   height: 2vh;
-  margin: 0 auto 5vh;
+  margin: 0 auto 3vh;
   width: 70%;
   display: flex;
   justify-content: space-between;
@@ -215,7 +215,7 @@ body::after {
 
 @media (min-width: 680px) {
   #principal {
-    height: 45vh;
+    height: 40vh;
   }
 }
 

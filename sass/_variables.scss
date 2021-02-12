@@ -1,0 +1,14 @@
+$couleur_desktop: blue;
+$couleurs : (
+    primaire: $couleur_desktop, 
+    text: white,  
+    credit: black, 
+    annonce: rgba(2, 105, 164, 0.8),
+    annonc_pale: rgb(2, 105, 164), 
+    annonce_fonce:  rgb(0, 50, 78),
+    couleurDecorative: gray
+)
+
+@function couleur($proprete) {
+    @return map-get($couleurs, $propriete); 
+}

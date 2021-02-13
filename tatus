@@ -1,0 +1,17 @@
+[33mcommit f834147e8fdd7efb3f8d8f24b1acb3b5ab813a4e[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Sarah Ferguson-Poirier <e1338822@cmaisonneuve.qc.ca>
+Date:   Fri Feb 12 12:37:55 2021 -0500
+
+    Variables, layout et mixins complétés. Absence d'animation
+
+[33mcommit 82b0355e776ba0beafa1580d13d6d845c0a0eeb6[m
+Author: Sarah Ferguson-Poirier <e1338822@cmaisonneuve.qc.ca>
+Date:   Fri Feb 12 10:10:33 2021 -0500
+
+    Modification css
+
+[33mcommit 8bb2052c5b48ddeae5270290b190058df8f8bf81[m
+Author: Sarah Ferguson-Poirier <e1338822@cmaisonneuve.qc.ca>
+Date:   Fri Feb 12 09:36:58 2021 -0500
+
+    Début du projet

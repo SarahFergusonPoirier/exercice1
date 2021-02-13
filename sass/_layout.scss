@@ -180,7 +180,7 @@ body::after {
     margin: 7vh 0 4.5vh; 
     padding: 20px;
     background-color: couleur(annonce);
-    border-top: 2px solid couleur(annonc_pale);
+    border-top: 2px solid couleur(annonce_pale);
     border-left: 2px solid couleur(annonce_pale);
     border-right: 2px solid couleur(annonce_fonce);
     border-bottom: 2px solid couleur(annonce_fonce);
@@ -256,7 +256,7 @@ body::after {
 }
 
 footer {
-    margin-top: 5vh;
+    margin-top: 12vh;
     width: 60%; 
     margin-left: 40vw; 
     text-align: right; 

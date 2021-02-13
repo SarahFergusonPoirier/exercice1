@@ -5,6 +5,23 @@ Variable
 Mixins
 ----------------------- */
 /* -----------------------
+Animation
+----------------------- */
+#menu a {
+  transform: translateY(-20vh);
+  animation: anim-menu 1s forwards;
+}
+
+@keyframes anim-menu {
+  0% {
+    transform: translateY(-20vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* -----------------------
 Layout
 ----------------------- */
 * {
@@ -258,7 +275,7 @@ body::after {
   padding: 20px;
   background-color: rgba(2, 105, 164, 0.8);
   border-top: 2px solid #0269a4;
-  border-left: 2px solid #015f96;
+  border-left: 2px solid #0269a4;
   border-right: 2px solid #00324e;
   border-bottom: 2px solid #00324e;
 }
@@ -365,7 +382,7 @@ body::after {
 }
 
 footer {
-  margin-top: 5vh;
+  margin-top: 12vh;
   width: 60%;
   margin-left: 40vw;
   text-align: right;

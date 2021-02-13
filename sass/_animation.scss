@@ -1,0 +1,14 @@
+#menu a {
+    transform: translateY(-20vh);
+    animation: anim-menu 1s forwards; 
+}
+
+@keyframes anim-menu {
+    0% {
+        transform: translateY(-20vh); 
+    }
+    100% {
+        transform: translateY(0); 
+    }
+}
+
